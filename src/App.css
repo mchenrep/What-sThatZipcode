@@ -1,5 +1,70 @@
+/* Global Reset + Box Sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Layout */
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Verdana', sans-serif;
+  background-color: #F7F3EF; /* light paper‑like background */
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Header / Title */
+h1, h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #003366; /* postal blue */
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+/* Form Inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #003366;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/* Buttons — postal label style */
+button {
+  background-color: #F0EAD6; /* off-white, like a paper label */
+  color: #003366;            /* postal blue text */
+  border: 2px solid #003366; /* dashed or solid border for stamped feel */
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  font-family: 'Courier Prime', monospace;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  box-shadow: 2
+}
+
+button:hover {
+  background-color: #e6e0cc;  /* slightly darker on hover */
+  transform: translateY(-1px); /* small lift effect */
+  box-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+/* Card / Result Display */
+.result-card {
+  border: 1px dashed #003366;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  background-color: #FFF;
+}
+
+/* Utility spacing */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
 }
