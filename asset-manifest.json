@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/What-sThatZipcode/static/css/main.a639c775.css",
+    "main.js": "/What-sThatZipcode/static/js/main.2d86e7dc.js",
+    "index.html": "/What-sThatZipcode/index.html",
+    "main.a639c775.css.map": "/What-sThatZipcode/static/css/main.a639c775.css.map",
+    "main.2d86e7dc.js.map": "/What-sThatZipcode/static/js/main.2d86e7dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a639c775.css",
+    "static/js/main.2d86e7dc.js"
+  ]
+}
